@@ -1,0 +1,31 @@
+.buttonn {
+    background-color: #1b1b1d;
+        color: white;
+        border: none;
+        margin-left: 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: box-shadow 0.3s ease-in-out;
+        height: 25px;
+        width: 65px;
+}
+  
+.inputt {
+    background-color: #161617;
+        color: white;
+        border: none;
+        margin-left: 16px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: box-shadow 0.3s ease-in-out;
+        height: 30px;
+        width: 75px;
+}

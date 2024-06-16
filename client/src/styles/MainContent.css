@@ -1,0 +1,21 @@
+.main-container {
+    display: flex;
+    background-color: black;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.open-btn {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+  

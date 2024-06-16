@@ -1,9 +1,10 @@
 import axios from 'axios';
 
-axios.get('http://localhost:8919/api/data')
+// Выполнение GET-запроса к серверу
+axios.get('/api/data')
   .then(response => {
     console.log(response.data);
   })
   .catch(error => {
-    console.error('Ошибка запроса:', error);
+    console.error('Ошибка при выполнении GET-запроса:', error);
   });

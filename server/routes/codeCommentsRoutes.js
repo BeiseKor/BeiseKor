@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const codeComments = require('../controllers/codeCommentsController.js');
+const codeComments = require('../controllers/codeCommentsController');
 
 router.post('/', codeComments.createComment);
 router.get('/', codeComments.getAllComments);

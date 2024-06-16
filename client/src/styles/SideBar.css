@@ -1,0 +1,61 @@
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  background-color: #1b1b1d;
+  color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.side {
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 16px;
+}
+
+.but {
+  color: white;
+  background-color: #1b1b1d;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.but:hover {
+  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+  /* Тень при наведении */
+}
+.uli {
+  color: white;
+}
+
+.sidebar.open {
+  left: 0;
+  
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 36px;
+  cursor: pointer;
+  border: none;
+
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  
+}
